@@ -196,7 +196,15 @@
         <div class="divider-line-with-icon negative"></div>
       </div>
       <div class="contactform w-form">
-        <form name="wf-form-contactform" data-name="Contactform" id="email-form" method="get"><input type="text" class="field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="field" required=""><input type="email" class="field odd w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email address" id="field" required=""><input type="text" class="field w-input" maxlength="256" name="telephone" data-name="Telephone" placeholder="Enter your telephone number" id="field" required=""><textarea placeholder="Optional message..." maxlength="5000" name="message" data-name="Message" id="field" class="field area w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
+        <form class="" action="mailto:info@audacimotors.com?subject=feedback" method="post" enctype="text/plain">
+        <!-- <form name="wf-form-contactform" data-name="Contactform" id="email-form" method="get"><input type="text" class="field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="field" required=""><input type="email" class="field odd w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email address" id="field" required=""><input type="text" class="field w-input" maxlength="256" name="telephone" data-name="Telephone" placeholder="Enter your telephone number" id="field" required=""><textarea placeholder="Optional message..." maxlength="5000" name="message" data-name="Message" id="field" class="field area w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form> -->
+        <!-- <form name="wf-form-contactform" data-name="Contactform" id="email-form" method="get"> -->
+          <input type="text" class="field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="field" required="">
+          <input type="email" class="field odd w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email address" id="field" required="">
+          <input type="text" class="field w-input" maxlength="256" name="telephone" data-name="Telephone" placeholder="Enter your telephone number" id="field" required="">
+          <textarea placeholder="Optional message..." maxlength="5000" name="message" data-name="Message" id="field" class="field area w-input"></textarea>
+          <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button">
+        </form>
         <div class="success-bg w-form-done">
           <p><strong>Thanks!</strong> You will receive a confirmation e-mail within 1 day.</p>
         </div>
